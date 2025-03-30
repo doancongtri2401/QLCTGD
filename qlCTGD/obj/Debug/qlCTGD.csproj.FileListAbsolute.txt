@@ -1,0 +1,15 @@
+H:\Users\Windows\qlCTGDI\qlCTGD\obj\Debug\qlCTGD.csproj.AssemblyReference.cache
+H:\Users\Windows\qlCTGDI\qlCTGD\obj\Debug\qlCTGD.frmQLGD.resources
+H:\Users\Windows\qlCTGDI\qlCTGD\obj\Debug\qlCTGD.frmTrangChu.resources
+H:\Users\Windows\qlCTGDI\qlCTGD\obj\Debug\qlCTGD.Properties.Resources.resources
+H:\Users\Windows\qlCTGDI\qlCTGD\obj\Debug\qlCTGD.csproj.GenerateResource.cache
+H:\Users\Windows\qlCTGDI\qlCTGD\obj\Debug\qlCTGD.csproj.CoreCompileInputs.cache
+H:\Users\Windows\qlCTGDI\qlCTGD\bin\Debug\qlCTGD.exe.config
+H:\Users\Windows\qlCTGDI\qlCTGD\bin\Debug\qlCTGD.exe
+H:\Users\Windows\qlCTGDI\qlCTGD\bin\Debug\qlCTGD.pdb
+H:\Users\Windows\qlCTGDI\qlCTGD\obj\Debug\qlCTGD.exe
+H:\Users\Windows\qlCTGDI\qlCTGD\obj\Debug\qlCTGD.pdb
+H:\Users\Windows\qlCTGDI\qlCTGD\obj\Debug\qlCTGD.frmQLNS.resources
+H:\Users\Windows\qlCTGDI\qlCTGD\obj\Debug\qlCTGD.frmBCvTK.resources
+H:\Users\Windows\qlCTGDI\qlCTGD\obj\Debug\qlCTGD.frmDN.resources
+H:\Users\Windows\qlCTGDI\qlCTGD\obj\Debug\qlCTGD.frmQLND.resources
