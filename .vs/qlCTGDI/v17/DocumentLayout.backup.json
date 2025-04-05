@@ -1,53 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "H:\\Users\\Windows\\qlCTGDI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5E638F82-4ECA-435E-89E0-13A05ED19474}|qlCTGD\\qlCTGD.csproj|h:\\users\\windows\\qlctgdi\\qlctgd\\frmbcvtk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5E638F82-4ECA-435E-89E0-13A05ED19474}|qlCTGD\\qlCTGD.csproj|solutionrelative:qlctgd\\frmbcvtk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E638F82-4ECA-435E-89E0-13A05ED19474}|qlCTGD\\qlCTGD.csproj|h:\\users\\windows\\qlctgdi\\qlctgd\\frmbcvtk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E638F82-4ECA-435E-89E0-13A05ED19474}|qlCTGD\\qlCTGD.csproj|solutionrelative:qlctgd\\frmbcvtk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmBCvTK.cs",
-              "DocumentMoniker": "H:\\Users\\Windows\\qlCTGDI\\qlCTGD\\frmBCvTK.cs",
-              "RelativeDocumentMoniker": "qlCTGD\\frmBCvTK.cs",
-              "ToolTip": "H:\\Users\\Windows\\qlCTGDI\\qlCTGD\\frmBCvTK.cs",
-              "RelativeToolTip": "qlCTGD\\frmBCvTK.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T04:30:29.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmBCvTK.cs [Design]",
-              "DocumentMoniker": "H:\\Users\\Windows\\qlCTGDI\\qlCTGD\\frmBCvTK.cs",
-              "RelativeDocumentMoniker": "qlCTGD\\frmBCvTK.cs",
-              "ToolTip": "H:\\Users\\Windows\\qlCTGDI\\qlCTGD\\frmBCvTK.cs [Design]",
-              "RelativeToolTip": "qlCTGD\\frmBCvTK.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T04:27:03.411Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

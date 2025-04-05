@@ -58,6 +58,12 @@
     <Compile Include="frmDN.Designer.cs">
       <DependentUpon>frmDN.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmKhoanVay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKhoanVay.Designer.cs">
+      <DependentUpon>frmKhoanVay.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmQLGD.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,11 +110,19 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QLCTGDDataSet3.xsd</DependentUpon>
     </Compile>
+    <Compile Include="QLCTGDDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLCTGDDataSet4.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frmBCvTK.resx">
       <DependentUpon>frmBCvTK.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDN.resx">
       <DependentUpon>frmDN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKhoanVay.resx">
+      <DependentUpon>frmKhoanVay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmQLGD.resx">
       <DependentUpon>frmQLGD.cs</DependentUpon>
@@ -183,6 +197,17 @@
     </None>
     <None Include="QLCTGDDataSet3.xss">
       <DependentUpon>QLCTGDDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QLCTGDDataSet4.xsc">
+      <DependentUpon>QLCTGDDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="QLCTGDDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLCTGDDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLCTGDDataSet4.xss">
+      <DependentUpon>QLCTGDDataSet4.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

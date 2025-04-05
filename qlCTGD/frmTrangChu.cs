@@ -87,6 +87,12 @@ namespace qlCTGD
             }
         }
 
+        private void khoảnVayToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frm = new frmKhoanVay();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }
 

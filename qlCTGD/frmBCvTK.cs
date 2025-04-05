@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace qlCTGD
@@ -201,6 +202,43 @@ namespace qlCTGD
             {
                 textBox2.Text = "0"; // Tránh lỗi khi nhập không hợp lệ
             }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Tạo nội dung báo cáo
+                string reportContent = "====== BÁO CÁO CHI TIÊU ======\n";
+                reportContent += $"ID báo cáo: {textBox4.Text}\n";
+                reportContent += $"Ngày báo cáo: {dateTimePicker1.Value.ToString("dd/MM/yyyy")}\n";
+                reportContent += $"Tổng thu nhập: {textBox1.Text}\n";
+                reportContent += $"Tổng chi tiêu: {textBox2.Text}\n";
+                reportContent += $"Tổng tiết kiệm: {textBox3.Text}\n";
+                reportContent += $"ID Người dùng: {comboBox1.SelectedValue}\n";
+                reportContent += "==================================\n";
+
+                // Hộp thoại chọn vị trí lưu file
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+                saveFileDialog.Filter = "Text file (*.txt)|*.txt";
+                saveFileDialog.Title = "Lưu báo cáo chi tiêu";
+                saveFileDialog.FileName = $"BaoCaoChiTieu_{DateTime.Now:yyyyMMdd}.txt";
+
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    File.WriteAllText(saveFileDialog.FileName, reportContent);
+                    MessageBox.Show("Xuất báo cáo thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi xuất báo cáo: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

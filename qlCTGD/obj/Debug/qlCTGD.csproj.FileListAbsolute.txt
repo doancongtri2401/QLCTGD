@@ -13,3 +13,4 @@ H:\Users\Windows\qlCTGDI\qlCTGD\obj\Debug\qlCTGD.frmQLNS.resources
 H:\Users\Windows\qlCTGDI\qlCTGD\obj\Debug\qlCTGD.frmBCvTK.resources
 H:\Users\Windows\qlCTGDI\qlCTGD\obj\Debug\qlCTGD.frmDN.resources
 H:\Users\Windows\qlCTGDI\qlCTGD\obj\Debug\qlCTGD.frmQLND.resources
+H:\Users\Windows\qlCTGDI\qlCTGD\obj\Debug\qlCTGD.frmKhoanVay.resources
